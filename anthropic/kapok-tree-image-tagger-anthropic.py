@@ -151,7 +151,7 @@ def process_images():
     print(f"Found {len(image_files)} images to process")
     
     # Create CSV file
-    csv_filename = "scratch/artwork_descriptions_claude.csv"
+    csv_filename = "artwork_descriptions_claude.csv"
     with open(csv_filename, 'w', newline='', encoding='utf-8') as csvfile:
         fieldnames = ['filename', 'short_description', 'long_description', 'tags', 'orientation']
         writer = csv.DictWriter(csvfile, fieldnames=fieldnames)

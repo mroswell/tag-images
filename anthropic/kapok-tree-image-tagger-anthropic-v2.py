@@ -42,7 +42,7 @@ from anthropic import Anthropic
 # Configuration — edit these or pass as arguments to process_images()
 # ---------------------------------------------------------------------------
 DEFAULT_IMAGE_DIR = "kapok_tree_images"
-DEFAULT_OUTPUT_CSV = "scratch/artwork_descriptions_claude.csv"
+DEFAULT_OUTPUT_CSV = "artwork_descriptions_claude.csv"
 MODEL = "claude-sonnet-4-5-20250929"  # Cost-effective; swap to opus if needed
 MAX_TOKENS = 1024
 TEMPERATURE = 0.0  # Low temp = consistent, factual descriptions
